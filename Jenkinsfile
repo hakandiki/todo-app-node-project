@@ -1,5 +1,5 @@
 
-peline {
+pipeline {
     agent { label "master" }
     environment {
         ECR_REGISTRY = "387408214354.dkr.ecr.us-east-1.amazonaws.com"
